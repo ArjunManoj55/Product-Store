@@ -13,5 +13,8 @@ export default defineConfig({
         secure: false,
       }
     }
+  },
+  build: {
+    outDir: 'dist' // Ensure this is defined for Vercel
   }
 })
